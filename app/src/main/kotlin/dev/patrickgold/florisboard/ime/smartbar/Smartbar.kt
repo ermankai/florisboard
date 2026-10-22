@@ -112,6 +112,7 @@ fun Smartbar() {
 
             ExtendedActionsPlacement.BELOW_CANDIDATES -> {
                 SnyggColumn(FlorisImeUi.Smartbar.elementName) {
+    // formatting toolbar
     FormattingToolbar()
     SmartbarSecondaryRow()
     SmartbarMainRow()
