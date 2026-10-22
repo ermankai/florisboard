@@ -112,9 +112,10 @@ fun Smartbar() {
 
             ExtendedActionsPlacement.BELOW_CANDIDATES -> {
                 SnyggColumn(FlorisImeUi.Smartbar.elementName) {
-                    SmartbarMainRow()
-                    SmartbarSecondaryRow()
-                }
+    FormattingToolbar()
+    SmartbarSecondaryRow()
+    SmartbarMainRow()
+}
             }
 
             ExtendedActionsPlacement.OVERLAY_APP_UI -> {
